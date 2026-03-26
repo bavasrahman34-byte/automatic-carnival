@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Creative Developer</title>
+    <meta name="description" content="A premium personal portfolio showcasing creative development work.">
+    <!-- Google Fonts: Outfit -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <!-- Main Stylesheet -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="noise-overlay"></div>
+    
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#home" class="logo">Port<span>folio.</span></a>
+            <ul class="nav-links">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#contact" class="nav-link btn-primary-outline">Say Hello</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="section hero-section hidden">
+            <div class="hero-content">
+                <p class="greeting">Hi, my name is</p>
+                <h1 class="hero-title">Creative mind.<br>Digital <span class="accent-text">architect.</span></h1>
+                <p class="hero-subtitle">I build premium, aesthetic, and highly engaging digital experiences for the modern web.</p>
+                <div class="hero-cta">
+                    <a href="#projects" class="btn btn-primary">View My Work</a>
+                    <a href="#about" class="btn btn-secondary">More About Me</a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="shape shape-1"></div>
+                <div class="shape shape-2"></div>
+                <div class="shape shape-3"></div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="section hidden">
+            <div class="section-header">
+                <h2 class="section-title">About Me</h2>
+                <div class="line"></div>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>I am a passionate developer focused on creating beautiful, intuitive interfaces. I believe that a great website isn't just about code—it's about how it makes the user feel.</p>
+                    <p>My approach combines clean architecture with aesthetic finesse, using animation and design theory to bring projects to life. Always learning, always improving.</p>
+                </div>
+                <div class="about-stats glass-card">
+                    <div class="stat">
+                        <h3>5+</h3>
+                        <p>Projects</p>
+                    </div>
+                    <div class="stat">
+                        <h3>100%</h3>
+                        <p>Commitment</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="section hidden">
+            <div class="section-header">
+                <h2 class="section-title">My Toolkit</h2>
+                <div class="line"></div>
+            </div>
+            <div class="skills-grid">
+                <div class="skill-card glass-card">
+                    <div class="skill-icon">🎨</div>
+                    <h3>Design Strategy</h3>
+                    <p>UI/UX Design, Wireframing, User Flows, Prototyping.</p>
+                </div>
+                <div class="skill-card glass-card">
+                    <div class="skill-icon">💻</div>
+                    <h3>Frontend Dev</h3>
+                    <p>HTML5, CSS3, JavaScript (ES6+), React, Vue.</p>
+                </div>
+                <div class="skill-card glass-card">
+                    <div class="skill-icon">⚡</div>
+                    <h3>Performance</h3>
+                    <p>Web Vitals, Animation Optimization, SEO Best Practices.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="section hidden">
+            <div class="section-header">
+                <h2 class="section-title">Selected Work</h2>
+                <div class="line"></div>
+            </div>
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <div class="project-card glass-card">
+                    <div class="project-image-placeholder prj-1"></div>
+                    <div class="project-info">
+                        <h3>Dynamic Dashboards</h3>
+                        <p>A data visualization platform designed with premium glassmorphism themes.</p>
+                        <div class="project-tags">
+                            <span>React</span>
+                            <span>CSS</span>
+                            <span>Charts</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project 2 -->
+                <div class="project-card glass-card">
+                    <div class="project-image-placeholder prj-2"></div>
+                    <div class="project-info">
+                        <h3>E-commerce Aesthetic</h3>
+                        <p>A concept store highlighting product visuals over heavy text interfaces.</p>
+                        <div class="project-tags">
+                            <span>Vanilla JS</span>
+                            <span>Animations</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section contact-section hidden">
+            <h2 class="contact-title">Ready to bring your ideas to life?</h2>
+            <p class="contact-desc">Let's discuss your next project! I'm always open to new opportunities and creative collaborations.</p>
+            <a href="mailto:hello@example.com" class="btn btn-primary mega-btn">Get In Touch</a>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2026 Creative Developer. Built with passion.</p>
+    </footer>
+
+    <!-- Main Logic -->
+    <script src="script.js"></script>
+</body>
+</html>
